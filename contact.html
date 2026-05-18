@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact</title>
+    <title>Contact — Mu'taz Al Ghaniy</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@700;900&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rajdhani:wght@400;500;600;700&family=Share+Tech+Mono&display=swap"
         rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
@@ -16,11 +16,26 @@
 
 <body>
 
+    <!-- BATS FLOATING BG -->
+    <div class="bat-swarm" aria-hidden="true">
+        <svg class="bat b1" viewBox="0 0 60 30" fill="none"><path d="M30 10 C20 0, 0 5, 0 15 C10 12, 18 18, 30 25 C42 18, 50 12, 60 15 C60 5, 40 0, 30 10Z" fill="currentColor"/><path d="M30 10 C30 20, 25 22, 30 25 C35 22, 30 20, 30 10Z" fill="currentColor"/></svg>
+        <svg class="bat b2" viewBox="0 0 60 30" fill="none"><path d="M30 10 C20 0, 0 5, 0 15 C10 12, 18 18, 30 25 C42 18, 50 12, 60 15 C60 5, 40 0, 30 10Z" fill="currentColor"/><path d="M30 10 C30 20, 25 22, 30 25 C35 22, 30 20, 30 10Z" fill="currentColor"/></svg>
+        <svg class="bat b3" viewBox="0 0 60 30" fill="none"><path d="M30 10 C20 0, 0 5, 0 15 C10 12, 18 18, 30 25 C42 18, 50 12, 60 15 C60 5, 40 0, 30 10Z" fill="currentColor"/><path d="M30 10 C30 20, 25 22, 30 25 C35 22, 30 20, 30 10Z" fill="currentColor"/></svg>
+        <svg class="bat b4" viewBox="0 0 60 30" fill="none"><path d="M30 10 C20 0, 0 5, 0 15 C10 12, 18 18, 30 25 C42 18, 50 12, 60 15 C60 5, 40 0, 30 10Z" fill="currentColor"/><path d="M30 10 C30 20, 25 22, 30 25 C35 22, 30 20, 30 10Z" fill="currentColor"/></svg>
+        <svg class="bat b5" viewBox="0 0 60 30" fill="none"><path d="M30 10 C20 0, 0 5, 0 15 C10 12, 18 18, 30 25 C42 18, 50 12, 60 15 C60 5, 40 0, 30 10Z" fill="currentColor"/><path d="M30 10 C30 20, 25 22, 30 25 C35 22, 30 20, 30 10Z" fill="currentColor"/></svg>
+        <svg class="bat b6" viewBox="0 0 60 30" fill="none"><path d="M30 10 C20 0, 0 5, 0 15 C10 12, 18 18, 30 25 C42 18, 50 12, 60 15 C60 5, 40 0, 30 10Z" fill="currentColor"/><path d="M30 10 C30 20, 25 22, 30 25 C35 22, 30 20, 30 10Z" fill="currentColor"/></svg>
+    </div>
+
     <!-- HEADER / NAVBAR -->
     <header class="header">
         <nav class="navbar" role="navigation" aria-label="Main navigation">
-            <a href="#home" class="logo-wrap">
-                <img src="logo.jpeg" class="logo-img" alt="Logo Mu'taz" />
+            <a href="index.html" class="logo-wrap">
+                <div class="logo-bat-wrap">
+                    <img src="logo.jpeg" class="logo-img" alt="Logo Mu'taz" />
+                    <div class="logo-bat-overlay" aria-hidden="true">
+                        <svg viewBox="0 0 60 30" fill="none"><path d="M30 10 C20 0, 0 5, 0 15 C10 12, 18 18, 30 25 C42 18, 50 12, 60 15 C60 5, 40 0, 30 10Z" fill="white" opacity="0.85"/><path d="M30 10 C30 20, 25 22, 30 25 C35 22, 30 20, 30 10Z" fill="white" opacity="0.85"/></svg>
+                    </div>
+                </div>
                 <span class="logo-name">Mu'taz Al Ghaniy</span>
             </a>
             <ul class="ul-navbar">
@@ -33,51 +48,59 @@
 
     <!-- MAIN CONTACT -->
     <main id="contact-main">
- 
-        <!-- Tagline / Promosi -->
-        <div class="contact-tagline">
-            <span class="badge-label">Mari Terhubung</span>
-            <h1>Follow & <span>Hubungi</span> Saya</h1>
+
+        <!-- Bat Signal behind -->
+        <div class="bat-signal contact-signal" aria-hidden="true">
+            <div class="signal-beam"></div>
+            <div class="signal-bat">
+                <svg viewBox="0 0 120 60" fill="none">
+                    <path d="M60 20 C40 0, 0 10, 0 30 C20 24, 36 36, 60 50 C84 36, 100 24, 120 30 C120 10, 80 0, 60 20Z" fill="rgba(0,0,0,0.6)"/>
+                    <path d="M60 20 C60 40, 50 44, 60 50 C70 44, 60 40, 60 20Z" fill="rgba(0,0,0,0.6)"/>
+                </svg>
+            </div>
+        </div>
+
+        <!-- Tagline -->
+        <div class="contact-tagline scroll-reveal">
+            <span class="badge-label">
+                <svg style="width:16px;height:8px;margin-right:6px;vertical-align:middle" viewBox="0 0 60 30" fill="none"><path d="M30 10 C20 0, 0 5, 0 15 C10 12, 18 18, 30 25 C42 18, 50 12, 60 15 C60 5, 40 0, 30 10Z" fill="currentColor"/><path d="M30 10 C30 20, 25 22, 30 25 C35 22, 30 20, 30 10Z" fill="currentColor"/></svg>
+                Hubungi Misi
+            </span>
+            <h1>Follow &amp; <span>Hubungi</span> Saya</h1>
             <p>Jangan ragu untuk menghubungi atau mengikuti perjalanan saya. Selalu aktif dan siap berinteraksi!</p>
         </div>
- 
+
         <!-- Cards -->
         <div class="contact-grid">
- 
+
             <!-- WhatsApp -->
-            <a href="https://wa.me/6281952389821" target="_blank" class="contact-card card-wa">
+            <a href="https://wa.me/6281952389821" target="_blank" class="contact-card card-wa scroll-reveal" style="transition-delay:0.1s">
                 <div class="orbit-wrap">
-                    <div class="orbit-ring">
-                        <div class="orbit-dot"></div>
-                    </div>
+                    <div class="orbit-ring"><div class="orbit-dot"></div></div>
                     <div class="icon-bg">
                         <img src="whatsapp-logo-whatsapp-icon-whatsapp-transparent-free-png.webp" alt="WhatsApp" />
                     </div>
                 </div>
                 <span class="card-name">WhatsApp</span>
-                <span class="card-desc">Chat langsung, respon cepat & ramah!</span>
+                <span class="card-desc">Chat langsung, respon cepat &amp; ramah!</span>
             </a>
- 
+
             <!-- Instagram -->
-            <a href="https://www.instagram.com/al._gifer/" target="_blank" class="contact-card card-ig">
+            <a href="https://www.instagram.com/al._gifer/" target="_blank" class="contact-card card-ig scroll-reveal" style="transition-delay:0.25s">
                 <div class="orbit-wrap">
-                    <div class="orbit-ring">
-                        <div class="orbit-dot"></div>
-                    </div>
+                    <div class="orbit-ring"><div class="orbit-dot"></div></div>
                     <div class="icon-bg">
                         <img src="instagram-logo-instagram-icon-transparent-free-png.webp" alt="Instagram" />
                     </div>
                 </div>
                 <span class="card-name">Instagram</span>
-                <span class="card-desc">Konten kreatif & momen terbaik saya.</span>
+                <span class="card-desc">Konten kreatif &amp; momen terbaik saya.</span>
             </a>
- 
+
             <!-- TikTok -->
-            <a href="https://www.tiktok.com/@vikrant.aksamala" target="_blank" class="contact-card card-tt">
+            <a href="https://www.tiktok.com/@vikrant.aksamala" target="_blank" class="contact-card card-tt scroll-reveal" style="transition-delay:0.4s">
                 <div class="orbit-wrap">
-                    <div class="orbit-ring">
-                        <div class="orbit-dot"></div>
-                    </div>
+                    <div class="orbit-ring"><div class="orbit-dot"></div></div>
                     <div class="icon-bg">
                         <img src="tiktok-icon-free-png.webp" alt="TikTok" />
                     </div>
@@ -85,24 +108,48 @@
                 <span class="card-name">TikTok</span>
                 <span class="card-desc">Video seru yang sayang untuk dilewatkan!</span>
             </a>
- 
+
         </div>
- 
+
     </main>
-
-
-
 
     <!-- FOOTER -->
     <footer class="footer">
+        <div class="footer-bat" aria-hidden="true">
+            <svg viewBox="0 0 80 40" fill="none">
+                <path d="M40 13 C27 0, 0 7, 0 20 C13 16, 24 24, 40 33 C56 24, 67 16, 80 20 C80 7, 53 0, 40 13Z" fill="white" opacity="0.15"/>
+                <path d="M40 13 C40 27, 33 29, 40 33 C47 29, 40 27, 40 13Z" fill="white" opacity="0.15"/>
+            </svg>
+        </div>
         <p class="footer-text">
             <span>Mu'taz Al Ghaniy</span> &nbsp;·&nbsp; Vikrant Aksamala — Celestial Tranquil
         </p>
+        <p class="footer-sub">I AM THE NIGHT</p>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
+
+    <script>
+        // Scroll reveal
+        const reveals = document.querySelectorAll('.scroll-reveal');
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) entry.target.classList.add('revealed');
+            });
+        }, { threshold: 0.12 });
+        reveals.forEach(el => observer.observe(el));
+
+        // Parallax bat signal on mouse
+        document.addEventListener('mousemove', (e) => {
+            const signal = document.querySelector('.bat-signal');
+            if (!signal) return;
+            const x = (e.clientX / window.innerWidth - 0.5) * 20;
+            const y = (e.clientY / window.innerHeight - 0.5) * 10;
+            signal.style.transform = `translate(calc(-50% + ${x}px), ${y}px)`;
+        });
+    </script>
 </body>
 
 </html>
